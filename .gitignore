@@ -1,0 +1,57 @@
+# ===============================
+# Python
+# ===============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+
+# ===============================
+# Jupyter Notebook
+# ===============================
+.ipynb_checkpoints/
+
+# ===============================
+# Data (DO NOT COMMIT DATASETS)
+# ===============================
+data/raw/
+data/processed/
+
+# ===============================
+# Models (usually large files)
+# ===============================
+models/*.h5
+models/*.pt
+models/*.pth
+models/*.joblib
+models/*.pkl
+
+# Keep folder structure
+!models/.gitkeep
+
+# ===============================
+# Results (optional to track)
+# ===============================
+results/figures/
+results/metrics/
+
+# ===============================
+# Logs & temp files
+# ===============================
+*.log
+*.tmp
+
+# ===============================
+# Environment variables
+# ===============================
+.env
+
+# ===============================
+# OS-specific
+# ===============================
+.DS_Store
+Thumbs.db
